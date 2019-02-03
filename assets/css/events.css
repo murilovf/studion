@@ -1,0 +1,96 @@
+.events-page {
+  background-image: url("../images/events.jpg");
+}
+
+.events {
+  padding: 80px 0;
+}
+
+.events-item {
+  display: flex;
+  padding: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.events-item:hover {
+  background-color: #f5f5f5;
+}
+
+.events-photo {
+  margin: 0 50px 0 0;
+}
+
+.events-content {
+  flex: 1;
+}
+
+.events-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 192px;
+}
+
+.events-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primary);
+  margin: 0;
+}
+
+.events-date {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 20px 0;
+}
+.events-date i {
+  color: var(--primary);
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.events-info {
+  display: flex;
+  align-items: center;
+}
+.events-info p {
+  margin: 0 50px 0 0;
+}
+
+.events-description {
+  margin-top: 60px;
+  display: none;
+}
+
+.events-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.events-address {
+  display: flex;
+  font-style: normal;
+}
+
+.events-address > i {
+  color: var(--primary);
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.events-local > h3 {
+  margin: 0 0 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.events-local > p {
+  margin: 0;
+  font-size: 14px;
+}

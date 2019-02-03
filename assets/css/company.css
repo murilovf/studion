@@ -1,0 +1,36 @@
+.company-page {
+  background-image: url("../images/company.jpg");
+}
+
+.company-content {
+  padding-top: 40px;
+}
+
+.company-content .container {
+  display: flex;
+  align-items: center;
+}
+
+.company-man img {
+  display: block;
+  margin-right: -50px;
+}
+
+.company-description {
+  padding: 0 100px 0 60px;
+}
+
+.company-customer {
+  padding: 70px 0;
+  background: var(--primary);
+  text-align: center;
+}
+
+.company-customer h2 {
+  margin-bottom: 50px;
+}
+
+.company-video {
+  padding: 70px 0;
+  text-align: center;
+}

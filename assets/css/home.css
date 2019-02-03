@@ -1,0 +1,123 @@
+/* Banner */
+.banner {
+  height: 700px;
+  background-color: var(--dark);
+  background-position: center center;
+  background-size: cover;
+  display: flex !important;
+  align-items: center;
+  outline: none;
+}
+
+.banner .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-content {
+  width: 620px;
+  margin-top: 80px;
+  color: var(--light);
+}
+
+.banner-content p {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.banner-content h2 {
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.banners .prev-arrow{
+  left: 5%;
+}
+
+.banners .next-arrow{
+  right: 5%;
+}
+
+/* Statistics */
+.statistics {
+  background: var(--primary);
+  padding: 80px 0;
+}
+
+.statistics-item {
+  display: inline-block;
+  margin: 0 60px;
+}
+
+.statistics-item h2 {
+  margin: 0;
+  color: var(--light);
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.statistics-item small {
+  font-size: 20px;
+  display: block;
+} 
+
+/* Institutional */
+.institutional {
+  padding: 60px 0;
+}
+
+.institutional-image {
+  float: left;
+}
+
+.institutional-content {
+  float: right;
+  width: 430px;
+  margin-top: 115px;
+}
+
+.institutional-content h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.institutional-content h2 {
+  font-size: 25px;
+}
+
+.institutional-content p {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+/* Parallax */
+.parallax {
+  padding: 60px 0;
+}
+
+.parallax-content {
+  width: 55%;
+  background-color: var(--light);
+  float: right;
+  padding: 50px;  
+}
+
+.parallax-content h2 {
+  margin: 0 0 30px;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.parallax-content small {
+  font-size: 15px;
+  line-height: 23px;
+  display: block;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,100 @@
+.btn {
+  display: inline-block;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 2px solid var(--light);
+  padding: 10px 30px;
+  border-radius: 30px;
+  white-space: nowrap;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.btn2 {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--light);
+}
+.btn2:hover {
+  background-color: var(--light);
+  color: var(--primary);
+}
+
+.btn3 {
+  color: var(--dark);
+  border-color: var(--dark); 
+}
+.btn3:hover {
+  background-color: var(--dark);
+  border-color: var(--dark); 
+  color: var(--light);
+}
+
+.btn4 {
+  border-color: transparent; 
+}
+
+.prev-arrow, 
+.next-arrow{
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  margin-top: -35px;
+  border: 0;
+  width: 40px;
+  height: 70px;
+  outline: none;
+  cursor: pointer;
+  opacity: .5;
+  transition: all .3 ease;
+}
+
+.prev-arrow{
+  background: url('../svg/prev.svg') center center no-repeat;
+  left: 0%;
+}
+
+.next-arrow{
+  background: url('../svg/next.svg') center center no-repeat;
+  right: 0%;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover{
+  opacity: 1;
+}
+
+.slick-dots{
+  list-style: none;
+  margin: 30px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li{
+  margin: 5px;
+}
+
+.slick-dots button{
+  width: 20px;
+  height: 20px;
+  background: var(--light);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  transition: all .3 ease;
+  color: transparent;
+}
+
+.slick-dots .slick-active button{
+  background: var(--dark);
+} 
