@@ -57,7 +57,7 @@
 			<div class="institutional-content">
 				<h3>Fazemos seu evento acontecer</h3>
 				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
 
 				<a href="#" class="btn btn2">Saiba mais</a>
 			</div>
